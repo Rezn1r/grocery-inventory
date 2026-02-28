@@ -1,0 +1,17 @@
+[project]
+name = "grocery-inventory"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "argon2-cffi>=25.1.0",
+    "colorama>=0.4.6",
+    "sqlalchemy>=2.0.47",
+]
+
+[dependency-groups]
+dev = [
+    "black>=26.1.0",
+    "ruff>=0.15.4",
+]
